@@ -1,35 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-<title>blog</title>
+	<title>block</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- адаптивность под разные устройства -->
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<div class="container-fluid">
-<a href="#" class="navbar-brand">WEB Blog TSPU</a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="headerMenu" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="headerMenu">
-<ul class="navbar-nav">
-<li class="navbar-item">
-<a href="#" class="nav-link">Home</a>
-</li>
-</ul>
-</div>
-</div>
-</nav>
-<div class="container">
-<div class="row">
-<div>
 
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">
+		<a href="a" class="navbar-brand"> WEB Blog TSPU</a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="headerMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+		<div class="collapse navbar-collapse" id="headerMenu">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+					Home</a>
+				</li>
+				<li class="nav-item dropdown">
+          			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            		Product catalog</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Что-то</a></li>
+            <li><a class="dropdown-item" href="#">Кто-то</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Не знаю что</a></li>
+          </ul>
+        </li>
+		</ul>
+    </div>
+  </div>
+</nav>
+		</div>
+	</div>
+
+</nav>
+<div class="container"> 
+	<div class="row">
+	<b>	Блок с чем-то о сайте.Nemo enim ipsam voluptatem, quis nostrum exercitationem ullam corporis suscipit laboriosam, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat?
+
+Excepteur sint occaecat cupidatat non proident, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</b>
+	</div>
 </div>
+
+<div class="container"> 
+	<div class="row">
+		<div class="col-8">
+	<div class="card mb-3" style="max-width: 540px;">
+  	<div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="Картинка какая-нибудь)">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text. </p>
+        <p class="card-text"><small class="text-muted">Last updated 5 mins ago</small></p>
+      </div>
+    </div>
+  </div>
 </div>
+		</div>
+		<div class="col-4">
+<div class="card">
+  <div class="card-header">
+    Featured
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">1</li>
+    <li class="list-group-item">2</li>
+    <li class="list-group-item">3</li>
+  </ul>
 </div>
-<!-- Пакет JavaScript с Popper -->
+<p></p>
+<div class="card">
+  <div class="card-header">
+    
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p></p>
+      <footer class="blockquote-footer"></footer>
+    </blockquote>
+  </div>
+</div>
+<p></p>
+<div class="card border-dark mb-3" style="max-width: 30rem;">
+  <div class="card-header"></div>
+  <div class="card-body text-dark">
+   
+    <p class="card-text"></p>
+  </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
